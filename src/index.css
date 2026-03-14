@@ -114,6 +114,8 @@
   @media (max-width: 768px) {
     .parallax-bg {
       background-attachment: scroll;
+      background-size: cover;
+      background-position: center top;
     }
   }
   
