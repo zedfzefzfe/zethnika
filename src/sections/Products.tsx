@@ -35,7 +35,7 @@ const Products = ({ onAddToCart, hideViewAll, products, categories }: ProductsPr
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0, rootMargin: "0px 0px -50px 0px" }
     );
 
     if (sectionRef.current) {
@@ -106,7 +106,7 @@ const Products = ({ onAddToCart, hideViewAll, products, categories }: ProductsPr
               className={`group bg-[#fafafa] border border-[#f5f5f5] transition-all duration-700 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
-              style={{ transitionDelay: `${800 + index * 100}ms` }}
+              style={{ transitionDelay: `${index * 100}ms` }}
             >
               {/* Image Container */}
               <div className="relative h-[400px] overflow-hidden bg-[#fafafa]">
