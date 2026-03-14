@@ -21,7 +21,7 @@ const Products = ({ onAddToCart, hideViewAll, products, categories }: ProductsPr
   const sourceCategories = categories ?? productsConfig.categories;
 
   const sectionRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const [activeCategory, setActiveCategory] = useState(
     sourceCategories.length > 0 ? sourceCategories[0] : ''
   );
