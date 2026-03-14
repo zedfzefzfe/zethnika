@@ -11,7 +11,7 @@ interface DecorationProductsProps {
 const DecorationProducts = ({ onAddToCart }: DecorationProductsProps) => {
   const navigate = useNavigate();
   const sectionRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const [activeCategory, setActiveCategory] = useState(decorationProductsConfig.categories[0] || 'Toutes');
   const [addedItems, setAddedItems] = useState<number[]>([]);
 
