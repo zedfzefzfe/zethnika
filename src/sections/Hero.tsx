@@ -6,7 +6,7 @@ import { heroConfig } from '../config';
 const Hero = () => {
   if (!heroConfig.title) return null;
 
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
   const heroRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
