@@ -112,7 +112,7 @@ export const subHeroConfig: SubHeroConfig = {
   image2: "/images/subhero-2.jpg",
   stats: [
     { value: 100, suffix: "%", label: "Naturel & Écologique" },
-    { value: 48, suffix: "h", label: "Temps de Fabrication" },
+    { value: 72, suffix: "h", label: "Temps de Fabrication" },
     { value: 50, suffix: "+", label: "Parfums Uniques" },
     { value: 5000, suffix: "+", label: "Clients Satisfaits" },
   ],
@@ -171,12 +171,12 @@ export const productsConfig: ProductsConfig = {
   addedToCartText: "Ajouté !",
     categories: [],
   products: [
-    { id: 1, name: "Bouquet de fiancailles", price: 489, category: "Fleuries", image: "/images/product-rose.jpg" },
-    { id: 3, name: "Cendres & Roses", price: 249, category: "Gourmandes", image: "/images/product-vanille.jpg" },
-    { id: 4, name: "Élégance rosée", price: 239, category: "Boisées", image: "/images/elegence.jpg" },
-    { id: 5, name: "Harmonie sombre", price: 249, category: "Orientales", image: "/images/WhatsApp Image 2026-03-03 at 22.38.28 (6).jpg" },
-    { id: 6, name: "Valentine's", price:  279, category: "Boisées", image: "/images/product-cedre.jpg" },
-    { id: 7, name: "Rose Lilas", price: 158, category: "Gourmandes", image: "/images/WhatsApp Image 2026-03-11 at 14.16.20.jpg" },
+    { id: 1, name: "Promesse d’amour", price: 489, category: "", image: "/images/product-rose.jpg" },
+    { id: 3, name: "Cendres & Roses", price: 219, category: "", image: "/images/product-vanille.jpg" },
+    { id: 4, name: "Élégance rosée", price: 239, category: "", image: "/images/elegence.jpg" },
+    { id: 5, name: "Pack Harmonie sombre", price: 249, category: "", image: "/images/WhatsApp Image 2026-03-03 at 22.38.28 (6).jpg" },
+    { id: 6, name: "Valentine's", price:  279, category: "", image: "/images/product-cedre.jpg" },
+    { id: 7, name: "Rose Lilas — À l'unité", price: 89, category: "", image: "/images/WhatsApp Image 2026-03-11 at 14.16.20.jpg" },
 
 
   ],
@@ -184,33 +184,41 @@ export const productsConfig: ProductsConfig = {
 
 // Full product set used only on the Collection page
 export const collectionProducts: Product[] = [
- { id: 1, name: "Bouquet de fiancailles", price: 489, category: "Fleuries", image: "/images/product-rose.jpg" },
-  { id: 2, name: "Cendres & Roses", price: 249, category: "Gourmandes", image: "/images/product-vanille.jpg" },
-  { id: 3, name: "Fuschia", price: 229 , category: "Boisées", image: "/images/tes.jpg" },
-  { id: 6, name: "Valentine's", price: 279, category: "Boisées", image: "/images/product-cedre.jpg" },
+ { id: 1, name: "Promesse d’amour", price: 489, category: "", image: "/images/product-rose.jpg" },
+  { id: 2, name: "Cendres & Roses", price: 219, category: "", image: "/images/product-vanille.jpg" },
+  { id: 3, name: "Fuschia", price: 249 , category: "", image: "/images/tes.jpg" },
+  { id: 6, name: "Valentine's", price: 279, category: "", image: "/images/product-cedre.jpg" },
  
-  { id: 4, name: "Harmonie sombre 1 ", price: 249, category: "Boisées", image: "/images/80.jpg" },
-  { id: 5, name: "Harmonie sombre 2", price: 199, category: "Fleuries", image: "/images/81.jpg" },
-  { id: 7, name: "Gourmand", price: 229, category: "Gourmandes", image: "/images/84.jpg" },
-  { id: 8, name: "Noël", price: 149, category: "Orientales", image: "/images/20.jpg" },
-  { id: 9, name: "Ambre Vanillé", price: 300, category: "Orientales", image: "/images/50.jpg" },
-   { id: 18, name: "Velours rosée ", price: 299, category: "Fleuries", image: "/images/98.jpg" },
-  { id: 19, name: "Bougie Fleurie — À l'unité", price: 20, category: "Fleuries", image: "/images/99.jpg" },
-  { id: 10, name: "Figue & Bois", price: 275, category: "Boisées", image: "/images/product-figue.jpg" },
-    { id: 20, name: "Panier fleuri ", price: 269, category: "Fleuries", image: "/images/93.jpg" },
-  { id: 18, name: "Éclat floral 1", price: 229, category: "Fleuries", image: "/images/95.jpg" },
-  { id: 19, name: "Éclat floral 2", price: 159, category: "Fleuries", image: "/images/96.jpg" },
-  { id: 11, name: "Violette", price: 269, category: "Fleuries", image: "/images/86.jpg" },
-  { id: 12, name: "Jardin de flamme", price: 449, category: "Gourmandes", image: "/images/product-noix.jpg" },
-  { id: 13, name: "Pastel", price: 209, category: "Fleuries", image: "/images/product-mehdi.jpg" },
-  { id: 14, name: "Mauve Papillon ", price: 249, category: "Fleuries", image: "/images/90.jpg" },
-  { id: 15, name: "Éclosion de lumière", price: 229, category: "Fleuries", image: "/images/15.jpg" },
-  { id: 16, name: "Rouge Papillon", price: 229, category: "Fleuries", image: "/images/16.jpg" },
-  { id: 17, name: "Brume rosée ", price: 229, category: "Fleuries", image: "/images/17.jpg" },
-    { id: 20, name: "Azur", price: 239, category: "Fleuries", image: "/images/91.jpg" },
-  { id: 18, name: "Mehdi", price: 200, category: "Fleuries", image: "/images/18.jpg" },
-    { id: 17, name: "Floraison", price: 229, category: "Fleuries", image: "/images/92.jpg" },
-      { id: 19, name: "Éclat Solaire", price: 239, category: "Fleuries", image: "/images/19.jpg" },
+  { id: 4, name: "Harmonie sombre 1 ", price: 249, category: "", image: "/images/80.jpg" },
+  { id: 5, name: "Harmonie sombre 2", price: 199, category: "", image: "/images/81.jpg" },
+  { id: 7, name: "Gourmand", price: 249, category: "", image: "/images/84.jpg" },
+  { id: 8, name: "Noël — À l'unité", price: 149, category: "", image: "/images/20.jpg" },
+  { id: 9, name: "Ambre Vanillé", price: 169, category: "", image: "/images/50.jpg" },
+   { id: 18, name: "Velours rosée ", price: 299, category: "", image: "/images/98.jpg" },
+  { id: 19, name: "Bougie Fleurie — À l'unité", price: 20, category: "", image: "/images/99.jpg" },
+  { id: 10, name: "Voile de Rose", price: 219, category: "", image: "/images/product-figue.jpg" },
+    { id: 20, name: "Panier fleuri ", price: 299, category: "", image: "/images/93.jpg" },
+  { id: 18, name: "Éclat floral 1", price: 229, category: "", image: "/images/95.jpg" },
+  { id: 19, name: "Éclat floral 2", price: 159, category: "", image: "/images/96.jpg" },
+  { id: 11, name: "Violette", price: 279, category: "", image: "/images/86.jpg" },
+  { id: 12, name: "Jardin de flamme", price: 449, category: "", image: "/images/product-noix.jpg" },
+  { id: 13, name: "Pastel", price: 209, category: "", image: "/images/product-mehdi.jpg" },
+  { id: 14, name: "Mauve Papillon ", price: 269, category: "", image: "/images/90.jpg" },
+  { id: 15, name: "Éclosion de lumière", price: 269, category: "", image: "/images/15.jpg" },
+  { id: 17, name: "Brume rosée ", price: 229, category: "", image: "/images/17.jpg" },
+    { id: 20, name: "Azur", price: 239, category: "", image: "/images/91.jpg" },
+  { id: 18, name: "Printemps", price: 199, category: "", image: "/images/18.jpg" },
+    { id: 17, name: "Floraison", price: 229, category: "", image: "/images/92.jpg" },
+   { id: 20, name: "Tulipe", price: 299, category: "", image: "/images/110.jpg" },
+      { id: 19, name: "Éclat Solaire", price: 149, category: "", image: "/images/19.jpg" },
+      { id: 21, name: "Émeraude", price: 159, category: "", image: "/images/111.jpg" },
+       { id: 22, name: "Nude", price: 249, category: "", image: "/images/114.jpg" },
+        { id: 21, name: "Palmier", price: 259, category: "", image: "/images/115.jpg" },
+      { id: 21, name: "Élégance", price: 299, category: "", image: "/images/112.jpg" },
+
+
+
+
     
 
 ];
@@ -237,29 +245,33 @@ export const decorationProductsConfig: DecorationProductsConfig = {
   addedToCartText: "Ajouté !",
   categories: [],
   products: [
-    { id: 101, name: "Perle", price: 39, category: "Photophores", image: "/images/33.jpg" },
-    { id: 102, name: "Éclat de roses", price: 35, category: "Piliers", image: "/images/35.jpg" },
-    { id: 103, name: "Élégance Miel", price:  129, category: "Lanternes", image: "/images/product-oud.jpg" },
-    { id: 104, name: "Céleste", price: 39 , category: "Flottantes", image: "/images/41.jpg" },
-    { id: 105, name: "Lumière sacrée ", price: 35, category: "Sculptées", image: "/images/37.jpg" },
-    { id: 106, name: "Porte de lumière", price: 39, category: "Photophores", image: "/images/42.jpg" },
-    { id: 107, name: "Lumière d'orient", price: 35, category: "Piliers", image: "/images/38.jpg" },
-    { id: 108, name: "Lumière divine", price: 35, category: "Lanternes", image: "/images/39.jpg" },
-    { id: 109, name: "Éclat spirituel", price: 69, category: "Flottantes", image: "/images/40.jpg" },
-    { id: 110, name: "Pot a couvercle vambou", price: 75, category: "Lanternes", image: "/images/32.jpg" },
-    { id: 111, name: "Délice ", price: 39, category: "Flottantes", image: "/images/36.jpg" },
-    { id: 112, name: "Rosée ", price: 45, category: "Lanternes", image: "/images/CEO.JPG" },
-    { id: 113, name: "Trio Pivoines ", price: 119, category: "Flottantes", image: "/images/70.JPG" },
-    { id: 114, name: "Pivoine moyenne", price: 35, category: "Lanternes", image: "/images/71.JPG" },
-    { id: 115, name: "Bleu velours ", price: 35, category: "Flottantes", image: "/images/72.JPG" },
-    { id: 116, name: "Velours Rouge", price: 79, category: "Lanternes", image: "/images/73.JPG" },
-    { id: 117, name: "La Rose Cristal ", price: 69, category: "Flottantes", image: "/images/74.JPG" },
-    { id: 118, name: "Bubble & Grand bubble cœur ", price: 75, category: "Flottantes", image: "/images/75.JPG" },
-    { id: 119, name: "Bougies buffet mariée — À l'unité ", price: 144, category: "Lanternes", image: "/images/100.jpg" },
-    { id: 120, name: "Bougies buffet de naissance — À l'unité ", price: 18, category: "Flottantes", image: "/images/101.jpg" },
-    { id: 119, name: "Bubble cylindre & Sapin ", price: 144, category: "Lanternes", image: "/images/76.JPG" },
-    { id: 120, name: "Pack marguerite ", price: 99, category: "Flottantes", image: "/images/77.JPG" },
-    { id: 120, name: " Bubbles — À l'unité ", price: 18, category: "Flottantes", image: "/images/102.jpg" },
+    { id: 101, name: "Perle", price: 39, category: "", image: "/images/33.jpg" },
+    { id: 102, name: "Perle Rosée", price: 35, category: "", image: "/images/35.jpg" },
+    { id: 103, name: "Élégance Miel", price:  139, category: "", image: "/images/product-oud.jpg" },
+    { id: 104, name: "Céleste", price: 39 , category: "", image: "/images/41.jpg" },
+    { id: 105, name: "Lumière sacrée — À l'unité ", price: 35, category: "", image: "/images/37.jpg" },
+    { id: 106, name: "Porte de lumière — À l'unité", price: 39, category: "", image: "/images/42.jpg" },
+    { id: 107, name: "Lumière d'orient — À l'unité", price: 35, category: "", image: "/images/38.jpg" },
+    { id: 108, name: "Lumière divine", price: 35, category: "", image: "/images/39.jpg" },
+    { id: 109, name: "Éclat spirituel — À l'unité", price: 69, category: "", image: "/images/40.jpg" },
+    { id: 110, name: "Valentin — À l'unité", price: 75, category: "", image: "/images/32.jpg" },
+    { id: 111, name: "Délice — À l'unité ", price: 39, category: "", image: "/images/36.jpg" },
+    { id: 112, name: "Rosée ", price: 45, category: "", image: "/images/CEO.JPG" },
+    { id: 113, name: "Trio Pivoines ", price: 119, category: "", image: "/images/70.JPG" },
+    { id: 114, name: "Pivoine Moyenne — À l'unité", price: 35, category: "", image: "/images/71.JPG" },
+    { id: 115, name: "Bleu velours ", price: 35, category: "", image: "/images/72.JPG" },
+    { id: 116, name: "Velours Rouge", price: 79, category: "", image: "/images/73.JPG" },
+    { id: 117, name: "Rose Cristal ", price: 69, category: "", image: "/images/74.JPG" },
+    { id: 118, name: " Pack Bubble  ", price: 129, category: "", image: "/images/75.JPG" },
+    { id: 119, name: "Bougies buffet mariée — À l'unité ", price: 25, category: "", image: "/images/100.jpg" },
+    { id: 120, name: "Bougies buffet de naissance — À l'unité ", price: 18, category: "", image: "/images/101.jpg" },
+    { id: 119, name: "Pack D'hiver", price: 184, category: "", image: "/images/76.JPG" },
+        { id: 120, name: " Élégance Miel 2 ", price: 69, category: "", image: "/images/117.jpg" },
+
+    { id: 120, name: " Bubbles — À l'unité ", price: 18, category: "", image: "/images/102.jpg" },
+        { id: 120, name: "Pack marguerite ", price: 99, category: "", image: "/images/77.JPG" },
+
+    { id: 120, name: " Pack Roses ", price: 299, category: "", image: "/images/118.jpg" },
 
   ],
 };
@@ -332,28 +344,28 @@ export const blogConfig: BlogConfig = {
       title: "", // unused
       date: "", // unused
       image: "/images/32.jpg",
-      excerpt: "Rose de Damas - Parfum Floral Délicat"
+      excerpt: "Valentin Rouge – Parfum Doux & Passionné"
     },
     {
       id: 2,
       title: "",
       date: "",
       image: "/images/20.jpg",
-      excerpt: "Oud & Ambre - Essence Orientale Précieuse"
+      excerpt: "Noël – Éclat d'Hiver Précieux"
     },
     {
       id: 3,
       title: "",
       date: "",
       image: "/images/35.jpg",
-      excerpt: "Vanille de Madagascar - Douceur Gourmande"
+      excerpt: "Perle Rosée - Douceur Gourmande"
     },
     {
       id: 4,
       title: "",
       date: "",
       image: "/images/36.jpg",
-      excerpt: "Bois de Santal - Élégance Boisée"
+      excerpt: "Délice - Élégance Boisée"
     },
   ],
 };
@@ -398,12 +410,12 @@ export const faqConfig: FaqConfig = {
     {
       id: 4,
       question: "Vos bougies sont-elles vraiment naturelles ?",
-      answer: "Oui, toutes nos bougies sont fabriquées avec de la cire végétale (soja ou colza) et des huiles essentielles ou des parfums sans phtalates. Aucune substance nocive n'est utilisée."
+      answer: "Oui, toutes nos bougies sont fabriquées avec de la Cire végétale de soja (colza ou abeilles sur demande) et des huiles essentielles ou des parfums sans phtalates. Aucune substance nocive n'est utilisée."
     },
     {
       id: 5,
       question: "Comment puis-je passer commande par WhatsApp ?",
-      answer: "C'est très simple ! Cliquez sur le bouton WhatsApp sur notre site ou contactez-nous directement au +212 6XX XX XX XX. Nous vous guiderons pour finaliser votre commande."
+      answer: "C'est très simple ! Cliquez sur le bouton WhatsApp sur notre site ou contactez-nous directement au +212 660-226065. Nous vous guiderons pour finaliser votre commande."
     },
   ],
 };
@@ -476,7 +488,7 @@ export const contactConfig: ContactConfig = {
   heading: "Contactez-Nous",
   description: "Une question, une demande personnalisée ou simplement envie de dire bonjour ? Nous serions ravis de vous entendre. Commandez rapidement via WhatsApp ou remplissez le formulaire ci-dessous.",
   locationLabel: "Notre Atelier",
-  location: "Marrakech, Maroc",
+  location: "Casablanca, Maroc",
   emailLabel: "Email",
   email: "contact@zethnika.ma",
   phoneLabel: "WhatsApp",
