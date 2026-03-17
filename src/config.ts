@@ -490,7 +490,7 @@ export const contactConfig: ContactConfig = {
   locationLabel: "Notre Atelier",
   location: "Casablanca, Maroc",
   emailLabel: "Email",
-  email: "contact@zethnika.ma",
+  email: "Contact.zethnika@gmail.com",
   phoneLabel: "WhatsApp",
   phone: "+212 660226065",
   formFields: {
