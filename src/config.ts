@@ -276,6 +276,39 @@ export const decorationProductsConfig: DecorationProductsConfig = {
   ],
 };
 
+// ─── Air Diffuser Products ─────────────────────────────────────────────────────
+
+export interface AirDiffuserProductsConfig {
+  tag: string;
+  heading: string;
+  description: string;
+  viewAllText: string;
+  addToCartText: string;
+  addedToCartText: string;
+  categories: string[];
+  products: Product[];
+}
+
+export const airDiffuserProductsConfig: AirDiffuserProductsConfig = {
+  tag: "Bien-être & Fragrances",
+  heading: "Diffuseurs d'Air & Sprays Parfumés",
+  description: "Découvrez notre sélection de diffuseurs d'air, sprays d'air et parfums d'ambiance artisanaux. Des fragrances naturelles pour transformer votre espace en oasis de détente.",
+  viewAllText: "Voir toute la collection",
+  addToCartText: "Ajouter au panier",
+  addedToCartText: "Ajouté !",
+  categories: [],
+  products: [
+    { id: 201, name: "Diffuseur d'Air Délicat | 100ml – À l'Unité", price: 119, category: "", image: "/images/200.jpg" },
+    { id: 202, name: "Diffuseur d'Air Délicat | 50ml – À l'Unité", price: 59, category: "", image: "/images/201.jpg" },
+    { id: 203, name: "Spray d'Air Parfumé | 50ml – À l'Unité", price: 39, category: "", image: "/images/202.jpg" },
+    { id: 204, name: "Pack Parfum d'Ambiance & Bougie", price: 149, category: "", image: "/images/203.jpg" },
+    { id: 205, name: "Coffret Parfum d'Ambiance | 50ml", price: 99, category: "", image: "/images/204.jpg" },
+    { id: 206, name: "Coffret Parfum d'Ambiance | 100ml", price: 159, category: "", image: "/images/205.jpg" },
+    { id: 207, name: "Boîte Concrète | Cire de Soja Naturelle – À l'Unité", price: 59, category: "", image: "/images/206.jpg" },
+
+  ],
+};
+
 // ─── Features ────────────────────────────────────────────────────────────────
 
 export interface Feature {

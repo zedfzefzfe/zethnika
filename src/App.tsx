@@ -9,6 +9,7 @@ import SubHero from './sections/SubHero';
 import VideoSection from './sections/VideoSection';
 import Products from './sections/Products';
 import DecorationProducts from './sections/DecorationProducts';
+import AirDiffuserProducts from './sections/AirDiffuserProducts';
 import Features from './sections/Features';
 import Blog from './sections/Blog';
 import FAQ from './sections/FAQ';
@@ -17,6 +18,7 @@ import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import CollectionPage from './pages/Collection';
 import DecorationsPage from './pages/DecorationsCollection';
+import AirDiffuserPage from './pages/AirDiffuserCollection';
 
 interface CartItem {
   id: number;
@@ -101,6 +103,7 @@ function App() {
                 <VideoSection />
                 <Products onAddToCart={handleAddToCart} />
                 <DecorationProducts onAddToCart={handleAddToCart} />
+                <AirDiffuserProducts onAddToCart={handleAddToCart} />
                 <Features />
                 <Blog />
                 <FAQ />
@@ -122,6 +125,14 @@ function App() {
             element={
               <main>
                 <DecorationsPage onAddToCart={handleAddToCart} />
+              </main>
+            }
+          />
+          <Route
+            path="/air-diffusers"
+            element={
+              <main>
+                <AirDiffuserPage onAddToCart={handleAddToCart} />
               </main>
             }
           />
