@@ -171,8 +171,8 @@ export const productsConfig: ProductsConfig = {
   addedToCartText: "Ajouté !",
     categories: [],
   products: [
-    { id: 1, name: "Promesse d’amour", price: 489, category: "", image: "/images/product-rose.jpg" },
-    { id: 3, name: "Cendres & Roses", price: 219, category: "", image: "/images/product-vanille.jpg" },
+    { id: 1, name: "Promesse d'amour", price: 529, category: "", image: "/images/product-rose.jpg" },
+    { id: 3, name: "Cendres & Roses", price: 229, category: "", image: "/images/product-vanille.jpg" },
     { id: 4, name: "Élégance rosée", price: 239, category: "", image: "/images/elegence.jpg" },
     { id: 5, name: "Pack Harmonie sombre", price: 449, category: "", image: "/images/WhatsApp Image 2026-03-03 at 22.38.28 (6).jpg" },
     { id: 6, name: "Valentine's", price:  319, category: "", image: "/images/product-cedre.jpg" },
