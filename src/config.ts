@@ -187,7 +187,7 @@ export const collectionProducts: Product[] = [
   { id: 1, name: "Promesse d'amour", price: 529, category: "", image: "/images/product-rose.jpg" },
   { id: 2, name: "Cendres & Roses", price: 229, category: "", image: "/images/product-vanille.jpg" },
   { id: 3, name: "Fuschia", price: 259 , category: "", image: "/images/tes.jpg" },
-  { id: 6, name: "Valentine's", price: 279, category: "", image: "/images/product-cedre.jpg" },
+  { id: 6, name: "Valentine's", price: 319, category: "", image: "/images/product-cedre.jpg" },
  
   { id: 4, name: "Harmonie sombre 1 ", price: 299, category: "", image: "/images/80.jpg" },
   { id: 5, name: "Harmonie sombre 2", price: 245, category: "", image: "/images/81.jpg" },
