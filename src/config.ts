@@ -175,8 +175,8 @@ export const productsConfig: ProductsConfig = {
     { id: 3, name: "Cendres & Roses", price: 219, category: "", image: "/images/product-vanille.jpg" },
     { id: 4, name: "Élégance rosée", price: 239, category: "", image: "/images/elegence.jpg" },
     { id: 5, name: "Pack Harmonie sombre", price: 449, category: "", image: "/images/WhatsApp Image 2026-03-03 at 22.38.28 (6).jpg" },
-    { id: 6, name: "Valentine's", price:  279, category: "", image: "/images/product-cedre.jpg" },
-    { id: 7, name: "Rose Lilas — À l'unité", price: 89, category: "", image: "/images/WhatsApp Image 2026-03-11 at 14.16.20.jpg" },
+    { id: 6, name: "Valentine's", price:  319, category: "", image: "/images/product-cedre.jpg" },
+    { id: 7, name: "Rose Lilas — À l'unité", price: 115, category: "", image: "/images/WhatsApp Image 2026-03-11 at 14.16.20.jpg" },
 
 
   ],
@@ -184,37 +184,36 @@ export const productsConfig: ProductsConfig = {
 
 // Full product set used only on the Collection page
 export const collectionProducts: Product[] = [
- { id: 1, name: "Promesse d’amour", price: 489, category: "", image: "/images/product-rose.jpg" },
-  { id: 2, name: "Cendres & Roses", price: 219, category: "", image: "/images/product-vanille.jpg" },
-  { id: 3, name: "Fuschia", price: 249 , category: "", image: "/images/tes.jpg" },
+  { id: 1, name: "Promesse d'amour", price: 529, category: "", image: "/images/product-rose.jpg" },
+  { id: 2, name: "Cendres & Roses", price: 229, category: "", image: "/images/product-vanille.jpg" },
+  { id: 3, name: "Fuschia", price: 259 , category: "", image: "/images/tes.jpg" },
   { id: 6, name: "Valentine's", price: 279, category: "", image: "/images/product-cedre.jpg" },
  
-  { id: 4, name: "Harmonie sombre 1 ", price: 249, category: "", image: "/images/80.jpg" },
-  { id: 5, name: "Harmonie sombre 2", price: 199, category: "", image: "/images/81.jpg" },
-  { id: 7, name: "Gourmand", price: 249, category: "", image: "/images/84.jpg" },
-  { id: 8, name: "Noël — À l'unité", price: 149, category: "", image: "/images/20.jpg" },
-  { id: 9, name: "Ambre Vanillé", price: 169, category: "", image: "/images/50.jpg" },
+  { id: 4, name: "Harmonie sombre 1 ", price: 299, category: "", image: "/images/80.jpg" },
+  { id: 5, name: "Harmonie sombre 2", price: 245, category: "", image: "/images/81.jpg" },
+  { id: 7, name: "Gourmand", price: 299, category: "", image: "/images/84.jpg" },
+  { id: 9, name: "Ambre Vanillé", price: 199, category: "", image: "/images/50.jpg" },
    { id: 18, name: "Velours rosée ", price: 299, category: "", image: "/images/98.jpg" },
   { id: 19, name: "Bougie Fleurie — À l'unité", price: 20, category: "", image: "/images/99.jpg" },
-  { id: 10, name: "Voile de Rose", price: 219, category: "", image: "/images/product-figue.jpg" },
+  { id: 10, name: "Voile de Rose", price: 229, category: "", image: "/images/product-figue.jpg" },
     { id: 20, name: "Panier fleuri ", price: 299, category: "", image: "/images/93.jpg" },
-  { id: 18, name: "Éclat floral 1", price: 229, category: "", image: "/images/95.jpg" },
-  { id: 19, name: "Éclat floral 2", price: 159, category: "", image: "/images/96.jpg" },
-  { id: 11, name: "Violette", price: 279, category: "", image: "/images/86.jpg" },
+  { id: 18, name: "Éclat floral 1", price: 259, category: "", image: "/images/95.jpg" },
+  { id: 19, name: "Éclat floral 2", price: 199, category: "", image: "/images/96.jpg" },
+  { id: 11, name: "Violette", price: 319, category: "", image: "/images/86.jpg" },
   { id: 12, name: "Jardin de flamme", price: 449, category: "", image: "/images/product-noix.jpg" },
-  { id: 13, name: "Pastel", price: 209, category: "", image: "/images/product-mehdi.jpg" },
-  { id: 14, name: "Mauve Papillon ", price: 269, category: "", image: "/images/90.jpg" },
-  { id: 15, name: "Éclosion de lumière", price: 269, category: "", image: "/images/15.jpg" },
-  { id: 17, name: "Brume rosée ", price: 229, category: "", image: "/images/17.jpg" },
-    { id: 20, name: "Azur", price: 239, category: "", image: "/images/91.jpg" },
-  { id: 18, name: "Printemps", price: 199, category: "", image: "/images/18.jpg" },
-    { id: 17, name: "Floraison", price: 229, category: "", image: "/images/92.jpg" },
+  { id: 13, name: "Pastel", price: 259, category: "", image: "/images/product-mehdi.jpg" },
+  { id: 14, name: "Mauve Papillon ", price: 279, category: "", image: "/images/90.jpg" },
+  { id: 15, name: "Éclosion de lumière", price: 319, category: "", image: "/images/15.jpg" },
+  { id: 17, name: "Brume rosée ", price: 269, category: "", image: "/images/17.jpg" },
+    { id: 20, name: "Azur", price: 289, category: "", image: "/images/91.jpg" },
+  { id: 18, name: "Printemps", price: 239, category: "", image: "/images/18.jpg" },
+    { id: 17, name: "Floraison", price: 309, category: "", image: "/images/92.jpg" },
    { id: 20, name: "Tulipe", price: 299, category: "", image: "/images/110.jpg" },
-      { id: 19, name: "Éclat Solaire", price: 149, category: "", image: "/images/19.jpg" },
-      { id: 21, name: "Émeraude", price: 159, category: "", image: "/images/111.jpg" },
-       { id: 22, name: "Nude", price: 249, category: "", image: "/images/114.jpg" },
-        { id: 21, name: "Palmier", price: 259, category: "", image: "/images/115.jpg" },
-      { id: 21, name: "Élégance", price: 299, category: "", image: "/images/112.jpg" },
+      { id: 19, name: "Éclat Solaire", price: 179, category: "", image: "/images/19.jpg" },
+      { id: 21, name: "Émeraude", price: 199, category: "", image: "/images/111.jpg" },
+       { id: 22, name: "Nude", price: 269, category: "", image: "/images/114.jpg" },
+        { id: 21, name: "Palmier", price: 289, category: "", image: "/images/115.jpg" },
+      { id: 21, name: "Élégance", price: 319, category: "", image: "/images/112.jpg" },
 
 
 
@@ -269,9 +268,9 @@ export const decorationProductsConfig: DecorationProductsConfig = {
         { id: 120, name: " Élégance Miel 2 ", price: 69, category: "", image: "/images/117.jpg" },
 
     { id: 120, name: " Bubbles — À l'unité ", price: 18, category: "", image: "/images/102.jpg" },
-        { id: 120, name: "Pack marguerite ", price: 99, category: "", image: "/images/77.JPG" },
+        { id: 120, name: "Pack marguerite ", price: 129, category: "", image: "/images/77.JPG" },
 
-    { id: 120, name: " Pack Roses ", price: 299, category: "", image: "/images/118.jpg" },
+    { id: 20, name: "Pack Roses ", price: 269, category: "", image: "/images/118.jpg" },
 
   ],
 };
