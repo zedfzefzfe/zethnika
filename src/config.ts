@@ -192,7 +192,7 @@ export const collectionProducts: Product[] = [
   { id: 4, name: "Harmonie sombre 1 ", price: 299, category: "", image: "/images/80.jpg" },
   { id: 5, name: "Harmonie sombre 2", price: 245, category: "", image: "/images/81.jpg" },
 
-    { id: 7, name: "Etincelle", price: 269, category: "", image: "/images/etincel.jpg" },
+    { id: 7, name: "Etincelle", price: 269, category: "", image: "/images/etin.jpg" },
   { id: 7, name: "Welcome Baby", price: 259, category: "", image: "/images/welcome.jpg" },
     { id: 7, name: "Rêve de Roses", price: 169, category: "", image: "/images/mini.jpg" },
 
